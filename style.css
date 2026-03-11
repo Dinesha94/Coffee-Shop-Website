@@ -1,56 +1,110 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Poppins;
+font-family:Poppins, sans-serif;
 }
 
-body{
-background:#ffffff;
-color:#333;
-}
+:root{
+    /* Primary Colors */
+    --white-color:#fff;
+    --dark-color:#252525;
+    --primary-color:#3b141c;
+    --secondary-color:#f3961c;
+    --light-pink-color:#faf4f5;
+    --medium-gray-color:#ccc;
 
-section{
-padding:80px 10%;
-text-align:center;
-}
+    /*Font Sizes */
+    --font-size-s:0.9rem;
+    --font-size-n:1rem;
+    --font-size-m:1.12rem;
+    --font-size-l:1.5rem;
+    --font-size-xl:2rem;
+    --font-size-xxl:2.3rem;
 
-<!-- NAVBAR -->
+    /*Font Weights */
+    --font-weight-normal:400;
+    --font-weight-medium:500;
+    --font-weight-semibold:600;
+    --font-weight-bold:700;
 
-.navbar{
+    /*Border Radius */
+    --border-radius-s:8px;
+    --border-radius-m:30px;
+    --border-radius-circle:50%;
 
-display:flex;
-justify-content:space-between;
-align-items:center;
-
-background:#5a0f16;
-padding:20px 10%;
-color:white;
-
-}
-
-.nav-links{
-
-display:flex;
-list-style:none;
-gap:30px;
-
-}
-
-.nav-links a{
-
-text-decoration:none;
-color:white;
+    /*Site max width */
+    --site-max-width:1300px;
 
 }
 
-.menu-toggle{
-
-display:none;
-font-size:25px;
-cursor:pointer;
-
+/*Stylings for whole site */
+ul{ 
+    list-style: none;
 }
+
+a{
+    text-decoration-line: none;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+img{
+    width: 100%;
+}
+
+.section-content{
+    max-width: var(--site-max-width);
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/*Navbar styling*/
+header{
+    background:var(--primary-color) ;
+}
+
+header .navbar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.navbar .nav-logo .logo-text{
+    color: var(--white-color);
+    font-size:var(--font-size-xl) ;
+    font-weight: var(--font-weight-semibold);
+}
+
+.navbar .nav-menu{
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .nav-menu .nav-link{
+    padding: 10px 18px;
+    color: var(--white-color);
+    font-size: var(--font-size-m);
+    border-radius: var(--border-radius-m);
+    transition: 0.3s ease;
+}
+
+.navbar .nav-menu .nav-link:hover {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+}
+
+
+
+
 
 <!-- HERO SECTION -->
 .hero{
