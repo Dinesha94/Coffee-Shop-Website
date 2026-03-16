@@ -1,9 +1,6 @@
-const toggle = document.querySelector(".menu-toggle")
+const menuOpenButton = document.querySelector('#menu-open-button');
 
-const nav = document.querySelector(".nav-links")
-
-toggle.addEventListener("click",()=>{
-
-nav.classList.toggle("active")
-
-})
+menuOpenButton.addEventListener('click', () => {
+    //Toggle mobile menu visibilty
+    document.body.classList.toggle("show-mobile-menu");
+});
