@@ -67,6 +67,23 @@ img{
     padding: 0 30px;
 }
 
+.section-title{
+    font-size: var(--font-size-xl);
+    text-align: center;
+    padding: 60px 0 100px;
+    text-transform: uppercase;
+}
+
+.section-title::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    border-radius: var(--border-radius-s);
+    background: var(--secondary-color);
+    margin: 10px auto 0;
+}
+
 /*Navbar styling*/
 header{
     position: fixed;
@@ -176,6 +193,57 @@ header .navbar{
     margin-right: 30px;
 }
 
+/*About section styling*/
+.about-section{
+padding: 120px 0;
+background: var(--light-pink-color);
+}
+
+.about-section .section-content{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-section .about-image-wrapper .about-image{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: var(--border-radius-circle);
+}
+
+.about-section .about-details {
+    max-width: 50%;
+}
+
+.about-section .about-details .section-title {
+    padding: 0;
+}
+
+.about-section .about-details .text { 
+    line-height: 30px;
+    margin: 50px 0 30px;
+    text-align: center;
+    font-size: var(--font-size-m);
+}
+
+.about-section .social-link-list{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.about-section .social-link-list .social-link{
+    color: var(--primary-color);
+    font-size: var(--font-size-l);
+    transition:0.2s ease;
+}
+
+.about-section .social-link-list .social-link:hover{
+    color: var(--secondary-color);
+}
+
 /*Responsive media query code for max width 900px*/
 @media screen and (max-width:900px) {
     :root{
@@ -183,6 +251,17 @@ header .navbar{
      --font-size-l:1.3rem;
      --font-size-xl:1.5rem;
      --font-size-xxl:1.8rem;
+    }
+
+    body.show-mobile-menu header::before{
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(5px);
     }
 
     .navbar :where(#menu-close-button, #menu-open-button){
@@ -223,5 +302,40 @@ header .navbar{
         margin-top: 17px;
         color: var(--dark-color);
         font-size: var(--font-size-l);
+    }
+
+    .hero-section .section-content{
+        gap: 50px;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 30px 20px 20px;
+        justify-content: center;
+
+    }
+
+    .hero-section .hero-image-wrapper{
+        max-width: 270px;
+        margin-right: 0;
+    }
+
+    .hero-section .hero-details :is(.subtitle,
+.description), .about-section .about-details{
+        max-width: 100%;
+    }
+
+    .hero-section .hero-details .buttons{
+        justify-content: center;
+    }
+
+    .about-section .section-content{
+        gap: 70px;
+        flex-direction: column;
+    }
+
+    .about-section .about-image-wrapper .about-image{
+        width: 100%;
+        height: 100%;
+        max-width: 250px;
+        aspect-ratio: 1;
     }
 }
