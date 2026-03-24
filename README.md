@@ -10,7 +10,7 @@ A visually appealing and fully responsive coffee shop website designed to simula
 
 ## 🔗 Live Demo
 
-👉 https://Dinesha94.github.io/coffee-website/
+👉 https://dinesha94.github.io/Coffee-Shop-Website/
 
 ## 📌 Overview
 
