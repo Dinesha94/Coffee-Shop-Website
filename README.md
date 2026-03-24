@@ -1,4 +1,4 @@
-# ☕ Responsive Coffee Website
+# ☕ Responsive Coffee Shop Website
 ### Modern UI/UX Coffee Shop Website | HTML • CSS • JavaScript
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
