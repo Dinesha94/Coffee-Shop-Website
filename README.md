@@ -49,23 +49,17 @@ The website includes key sections typically found in real business websites such
   - Footer – Social links & quick navigation
 
 ## 🛠️ Tech Stack
-#### Technology	        Purpose
-HTML5	                  Structure and semantic layout
-CSS3 (Flexbox & Grid)	  Styling and responsive layout
-JavaScript (ES6)	      Interactivity and DOM manipulation
+| Technology            | Purpose                            |
+| --------------------- | ---------------------------------- |
+| HTML5                 | Structure and semantic layout      |
+| CSS3 (Flexbox & Grid) | Styling and responsive layout      |
+| JavaScript (ES6)      | Interactivity and DOM manipulation |
+
 
 ## 📂 Project Structure
 
-coffee-website/
-│
-├── index.html          # Main HTML file
-├── style.css           # Stylesheet
-├── script.js           # JavaScript functionality
-├── assets/
-│   ├── images/         # All images used in the project
-│   └── icons/          # Icons (if any)
-│
-└── README.md
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/a2ca5db0-5d78-4dda-b751-fb5d3e472276" />
+
 
 ## ⚙️ Getting Started
 
@@ -81,33 +75,33 @@ cd coffee-website
 
 #### Hero Section
 
-<img width="1920" height="1020" alt="Hero section" src="https://github.com/user-attachments/assets/75bd0f33-4727-445c-a28c-e3ad9af7263a" />
+<img width="720" height="420" alt="Hero section" src="https://github.com/user-attachments/assets/75bd0f33-4727-445c-a28c-e3ad9af7263a" />
 
 #### About Section
 
-<img width="1920" height="1020" alt="About section" src="https://github.com/user-attachments/assets/b513a74f-6207-42db-af75-0ec00deb94fd" />
+<img width="720" height="420" alt="About section" src="https://github.com/user-attachments/assets/b513a74f-6207-42db-af75-0ec00deb94fd" />
 
 #### Menu Section
 
-<img width="1920" height="1020" alt="Menu section" src="https://github.com/user-attachments/assets/ec6e3429-7aa3-47a8-8cc9-a2ddc7fcfbd6" />
+<img width="720" height="420" alt="Menu section" src="https://github.com/user-attachments/assets/ec6e3429-7aa3-47a8-8cc9-a2ddc7fcfbd6" />
 
 #### Gallery Section
 
-<img width="1920" height="1020" alt="Gallery section" src="https://github.com/user-attachments/assets/6e455d39-6f31-436c-84ea-ca054637b174" />
+<img width="720" height="420" alt="Gallery section" src="https://github.com/user-attachments/assets/6e455d39-6f31-436c-84ea-ca054637b174" />
 
 #### Testimonials Section
 
-<img width="1920" height="1020" alt="Testimonials section" src="https://github.com/user-attachments/assets/18cb4068-e7be-4fc5-bce0-5f71a2832f9e" />
+<img width="720" height="420" alt="Testimonials section" src="https://github.com/user-attachments/assets/18cb4068-e7be-4fc5-bce0-5f71a2832f9e" />
 
 #### Contact Section
 
-<img width="1920" height="1020" alt="Contact section" src="https://github.com/user-attachments/assets/002f4195-fb47-470d-96d3-ec0605eabdcf" />
+<img width="720" height="420" alt="Contact section" src="https://github.com/user-attachments/assets/002f4195-fb47-470d-96d3-ec0605eabdcf" />
 
 ### 📱 Mobile View
-<img width="268" height="582" alt="Mobile view" src="https://github.com/user-attachments/assets/4153f288-e898-4314-9a4d-27646d23e4e5" />
-<img width="272" height="585" alt="Menu mobile view" src="https://github.com/user-attachments/assets/7c96a2dd-52bf-43d2-8753-6d12677f543f" />
-<img width="262" height="583" alt="Gallery mobile view" src="https://github.com/user-attachments/assets/3e1a332d-a32b-4af2-85e8-f51dcbfc8bd8" />
-<img width="273" height="588" alt="Contact mobile view" src="https://github.com/user-attachments/assets/ec0eba4a-70d9-4d4c-b1c2-3005fc384084" />
+<img width="228" height="500" alt="Mobile view" src="https://github.com/user-attachments/assets/4153f288-e898-4314-9a4d-27646d23e4e5" />
+<img width="222" height="580" alt="Menu mobile view" src="https://github.com/user-attachments/assets/7c96a2dd-52bf-43d2-8753-6d12677f543f" />
+<img width="222" height="500" alt="Gallery mobile view" src="https://github.com/user-attachments/assets/3e1a332d-a32b-4af2-85e8-f51dcbfc8bd8" />
+<img width="223" height="560" alt="Contact mobile view" src="https://github.com/user-attachments/assets/ec0eba4a-70d9-4d4c-b1c2-3005fc384084" />
 
 
 
